@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'react-app',
-    'react-app/jest',
+    //'react-app/jest',
     'plugin:testing-library/react',
     'plugin:jsx-a11y/recommended',
   ],

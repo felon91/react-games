@@ -5,5 +5,7 @@ module.exports = {
     './src/eslint/base',
     './src/eslint/typescript',
     './src/eslint/import',
+    './src/eslint/react',
+    './src/eslint/node',
   ],
 };
