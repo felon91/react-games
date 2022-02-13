@@ -39,7 +39,11 @@ const Table: React.FC = () => {
   table.field.reduce((acc, item, index) => {
     cells.push(renderCell(index));
     if (acc % 3 === 0) {
-      fullTable.push(<div className={styles.row}>{cells}</div>);
+      fullTable.push(
+        <div key={`${acc}${index}`} className={styles.row}>
+          {cells}
+        </div>
+      );
       cells = [];
     }
     return acc + 1;
