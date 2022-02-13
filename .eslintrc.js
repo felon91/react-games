@@ -6,6 +6,6 @@ module.exports = {
     './src/eslint/typescript',
     './src/eslint/import',
     './src/eslint/react',
-    './src/eslint/node',
+    //'./src/eslint/node',
   ],
 };

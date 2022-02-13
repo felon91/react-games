@@ -1,4 +1,4 @@
 export enum Urls {
-  Home = '/',
+  TicTacToe = '/',
   About = '/about',
 }

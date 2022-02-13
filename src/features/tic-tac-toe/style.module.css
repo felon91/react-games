@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+}
+
+.cell {
+  appearance: none;
+  background: none;
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
